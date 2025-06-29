@@ -1,19 +1,56 @@
 # 简介
 
-开源流媒体平台，全面支持GB28181、ONVIF等主流设备接入协议，兼容各大厂商摄像头，集成推流、拉流、转码、直播、点播及云台控制等功能。平台支持RTMP、RTSP、HTTP-FLV、WS-FLV、HTTP-TS等多种流媒体传输协议，以及H.264/H.265高清编解码，无设备数量、推流数和播放人数限制，灵活满足各类监控与流媒体分发场景需求。
+开源流媒体平台，全面支持GB28181、ONVIF、RTSP、RTMP等主流设备接入协议，兼容各大厂商摄像头，集成推流、拉流、转码、直播、点播及云台控制等功能。平台支持RTMP、RTSP、HTTP-FLV、WS-FLV、HTTP-TS等多种流媒体传输协议，以及H.264/H.265高清编解码，无设备数量、推流数和播放人数限制，灵活满足各类监控与流媒体分发场景需求。
 
 
 
 # 下载安装
+
+推荐使用镜像安装的方式，可执行文件安装需要注意不要和服务器环境冲突
+
+### 镜像安装
 
 1. **下载镜像**
 
 通过网盘分享的文件：media_ai
 链接: https://pan.baidu.com/s/18ROPJK-j1HYq5452TXZDTg 提取码: wrvc
 
+其中以.iso结尾的是镜像文件，例如：media_ai_*.iso
+
 2. 制作启动盘，安装
 
 参考：[镜像安装](镜像安装.md)
+
+### 可执行文件安装
+
+推荐使用ubuntu18以上版本或debian12
+
+1. 下载可执行文件
+
+   通过网盘分享的文件：media_ai
+   链接: https://pan.baidu.com/s/18ROPJK-j1HYq5452TXZDTg 提取码: wrvc
+
+   media.zip: 流媒体可执行文件
+
+2. 安装运行
+
+```
+# 切换到管理员权限,ubuntu使用sudo su,debian使用su
+sudo su
+
+# 解压
+unzip media.zip
+# 赋权
+chmod 777 -R media
+
+# 进入文件夹
+cd media
+
+# 运行
+./media
+```
+
+
 
 # 管理平台（web）
 
