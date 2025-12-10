@@ -321,14 +321,3 @@ test是流应用名，live是流id，sign是推流密码
 
 ![](./img/13.png)
 
-# 联系作者
-
-码云: https://gitee.com/daimaxiuligong/media
-
-github: https://github.com/daimaxiuligong/media
-
-![](./img/微信1.png)
-
-[专业版](./专业版.md)
-
-支持定制
